@@ -1,0 +1,7 @@
+D:\Git project\Client-serv\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\Git project\Client-serv\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\Git project\Client-serv\Server\bin\Debug\Server.exe.config
+D:\Git project\Client-serv\Server\bin\Debug\Server.exe
+D:\Git project\Client-serv\Server\bin\Debug\Server.pdb
+D:\Git project\Client-serv\Server\obj\Debug\Server.exe
+D:\Git project\Client-serv\Server\obj\Debug\Server.pdb
