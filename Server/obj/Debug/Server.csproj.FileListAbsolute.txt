@@ -5,3 +5,13 @@ D:\Git project\Client-serv\Server\bin\Debug\Server.exe
 D:\Git project\Client-serv\Server\bin\Debug\Server.pdb
 D:\Git project\Client-serv\Server\obj\Debug\Server.exe
 D:\Git project\Client-serv\Server\obj\Debug\Server.pdb
+D:\CODE\Client-serv\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\CODE\Client-serv\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\CODE\Client-serv\Server\obj\Debug\Server.exe
+D:\CODE\Client-serv\Server\obj\Debug\Server.pdb
+D:\CODE\Client-serv\Server\bin\Debug\Server.exe.config
+D:\CODE\Client-serv\Server\bin\Debug\Server.exe
+D:\CODE\Client-serv\Server\bin\Debug\Server.pdb
+D:\CODE\Client-serv\Server\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\CODE\Client-serv\Server\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\CODE\Client-serv\Server\obj\Debug\Server.csproj.CopyComplete

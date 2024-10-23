@@ -12,13 +12,7 @@ namespace Server
     {
         static void Main(string[] args)
         {
-            var words = new Dictionary<string, string>()
-                {
-                    {"red", "красный" },
-                    {"blue", "синий" },
-                    {"green", "зеленый" }
-                };
-
+            
             var tcpListener = new TcpListener(IPAddress.Any, 8888);
 
             tcpListener.Start();    // запускаем сервер
@@ -55,11 +49,37 @@ namespace Server
                         case "Login":
                             if (commang[1].Length>0 && commang[2].Length>0)
                             {
-                                result = "LOGIN";
+                                SqlQueriesRun sql = new SqlQueriesRun();
+                                int col = Convert.ToInt32( sql.RunCalcQuery($"select count(AccountID) from Accounts where Login='{commang[1]}' and Password='{commang[2]}'"));
+                                if (col > 0) result = "LOGIN";
+                                else result = "NoLogin";
                             }
                             Console.WriteLine($"Вход пользователя {commang[1]}");
                             break;
+
+                        case "F1":
+                            if (commang.Length==4)
+                            {
+                                result = ( Int32.Parse(commang[1]) + Int32.Parse(commang[2])+Int32.Parse(commang[3])).ToString();
+                                Console.WriteLine($"Подсчет функции F1");
+                            }
+                            break;
+                        case "F2":
+                            if (commang.Length == 4)
+                            {
+                                result = (Int32.Parse(commang[1]) - Int32.Parse(commang[2]) - Int32.Parse(commang[3])).ToString();
+                                Console.WriteLine($"Подсчет функции F2");
+                            }
+                            break;
+                        case "F3":
+                            if (commang.Length == 4)
+                            {
+                                result = (Int32.Parse(commang[1]) * Int32.Parse(commang[2]) + Int32.Parse(commang[3])).ToString();
+                                Console.WriteLine($"Подсчет функции F3");
+                            }
+                            break;
                         default:
+                            result = "Произошла ошибка!";
                             break;
                     }
 

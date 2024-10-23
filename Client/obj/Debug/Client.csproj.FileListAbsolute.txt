@@ -9,3 +9,14 @@ D:\Git project\Client-serv\Client\obj\Debug\Client.csproj.CoreCompileInputs.cach
 D:\Git project\Client-serv\Client\obj\Debug\Client.exe
 D:\Git project\Client-serv\Client\obj\Debug\Client.pdb
 D:\Git project\Client-serv\Client\obj\Debug\Client.FormLogin.resources
+D:\CODE\Client-serv\Client\bin\Debug\Client.exe.config
+D:\CODE\Client-serv\Client\bin\Debug\Client.exe
+D:\CODE\Client-serv\Client\bin\Debug\Client.pdb
+D:\CODE\Client-serv\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+D:\CODE\Client-serv\Client\obj\Debug\Client.Form1.resources
+D:\CODE\Client-serv\Client\obj\Debug\Client.FormLogin.resources
+D:\CODE\Client-serv\Client\obj\Debug\Client.Properties.Resources.resources
+D:\CODE\Client-serv\Client\obj\Debug\Client.csproj.GenerateResource.cache
+D:\CODE\Client-serv\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\CODE\Client-serv\Client\obj\Debug\Client.exe
+D:\CODE\Client-serv\Client\obj\Debug\Client.pdb
